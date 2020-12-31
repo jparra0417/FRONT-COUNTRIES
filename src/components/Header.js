@@ -13,6 +13,9 @@ const StyledContainer = styled.div`
         align-items: center;
         background-color: ${props => props.theme.backgroundHeader};
         color: ${props => props.theme.color};
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.06);
+        z-index: 1;
+        position: relative;
         
     `
 const StyledTitle = styled.div`

@@ -1,9 +1,9 @@
 import React, { useReducer, createContext } from "react";
-import { Light } from "./consts/Light";
+import { Dark } from "./consts/Dark";
 
 /** initial state */
 const initialState = {
-    theme: Light
+    theme: Dark
 }
 
 /** create and export the store */
